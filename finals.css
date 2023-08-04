@@ -1,0 +1,94 @@
+/* CSS for navigation menu */
+nav {
+    background-color: #333;
+    color: #fff;
+    height: 100vh; /* Set the height to fill the entire vertical space */
+    position: sticky;
+    top: 0;
+}
+
+nav .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav .nav-link.active {
+    text-decoration: underline;
+}
+
+nav .dropdown-menu {
+    background-color: #444;
+}
+
+/* Content section styling */
+.content {
+    display: none;
+    padding: 20px;
+}
+
+.content h1, .content h2 {
+    color: #333;
+}
+
+/* Show the active content */
+.content.active {
+    display: block;
+}
+
+/* Additional CSS for homepage banner */
+.homepage-banner {
+    background-image: url("bgdlsu.jpg"); /* Replace "bgdlsu.jpg" with the actual image filename or correct path */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0; /* Increase the padding to make the background image bigger */
+
+    /* Add transparent black overlay */
+    background-color: rgba(0, 0, 0, 0.95); /* Adjust the alpha value (0.95) to make it super dark or dim */
+}
+
+.homepage-banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff; /* Adjust the color to bright white (#fff) */
+}
+
+/* Styling for pressable text */
+.homepage-links a {
+    color: #000; /* Set the color to black (#000) */
+    text-decoration: none;
+    margin-right: 10px; /* Add some space between links */
+}
+
+.homepage-links p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+col.col1{
+	width: 30%;
+}
+
+col.col2{
+	width: 30%;
+	text-align: center;
+	padding: 50px;
+}
+
+.nested-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.nested-table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+hr {
+  height:2px;
+  border-width:0;
+  background-color:darkgreen;
+}
